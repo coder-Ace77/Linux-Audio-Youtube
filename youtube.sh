@@ -1,4 +1,5 @@
 #!/bin/bash
 
-yt-dlp --format bestaudio --extract-audio --audio-format mp3 -q -P ~/Music/yt-dlp/ $1
+echo "Downloading $1"
+yt-dlp --format bestaudio --extract-audio --audio-format mp3 -P ~/Music/yt-dlp/ $1
 
